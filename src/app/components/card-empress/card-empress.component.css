@@ -1,14 +1,22 @@
 mat-card{
-display: flex;
-flex-direction: column;
-justify-content: center;
-  margin:15px;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  align-content: flex-start;
 }
-a:link{
+
+a:link {
   text-decoration: none;
-  color :black;
+  color: black;
 }
-a.menu:visited{
-color: black;
+
+a.menu:visited {
+  color: black;
 }
+mat-card-header
+{
+  display: flex;
+  justify-content: flex-start;
+}
+

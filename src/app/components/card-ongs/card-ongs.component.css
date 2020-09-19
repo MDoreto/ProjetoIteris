@@ -1,5 +1,9 @@
 div{
-  margin:15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px;
+  align-content: flex-start;
 }
 a:link{
   text-decoration: none;

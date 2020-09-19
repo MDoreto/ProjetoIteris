@@ -27,6 +27,7 @@ import { MatRadioModule } from '@angular/material/radio';
 import { OngsCadastroComponent } from './components/ongs-cadastro/ongs-cadastro.component';
 import {MatInputModule} from '@angular/material/input';
 import { FormularioComponent } from './clientes/formulario/formulario.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 
@@ -41,7 +42,8 @@ import { FormularioComponent } from './clientes/formulario/formulario.component'
     PageEmpressComponent,
     VoluntaryComponent,
     OngsCadastroComponent,
-    FormularioComponent
+    FormularioComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

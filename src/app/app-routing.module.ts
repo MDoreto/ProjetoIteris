@@ -7,6 +7,7 @@ import { PageEmpressComponent } from './components/page-empress/page-empress.com
 import { PageOngsComponent } from './components/page-ongs/page-ongs.component';
 import { VoluntaryComponent } from './components/voluntary/voluntary.component';
 import { FormularioComponent } from './clientes/formulario/formulario.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 const routes: Routes = [{
 
@@ -36,7 +37,7 @@ const routes: Routes = [{
     },
     {
       path:'Contato',
-      component:FormularioComponent,
+      component:ContactComponent,
     }
   ],
 }];
