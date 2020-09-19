@@ -1,6 +1,6 @@
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -14,7 +14,7 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
 import { PageOngsComponent } from './components/page-ongs/page-ongs.component';
 import { CardOngsComponent } from './components/card-ongs/card-ongs.component';
 import { HttpClientModule } from '@angular/common/http';
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
 import { MainWindowComponent } from './components/main-window/main-window.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import { CardEmpressComponent } from './components/card-empress/card-empress.component';
@@ -23,6 +23,8 @@ import { VoluntaryComponent } from './components/voluntary/voluntary.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
 import {ReactiveFormsModule} from '@angular/forms';
+import { MatRadioModule } from '@angular/material/radio';
+import { OngsCadastroComponent } from './components/ongs-cadastro/ongs-cadastro.component';
 import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
@@ -35,6 +37,7 @@ import {MatInputModule} from '@angular/material/input';
     CardEmpressComponent,
     PageEmpressComponent,
     VoluntaryComponent,
+    OngsCadastroComponent
   ],
   imports: [
     BrowserModule,
@@ -51,6 +54,9 @@ import {MatInputModule} from '@angular/material/input';
     MatTabsModule,
     MatFormFieldModule,
     MatSelectModule,
+    ReactiveFormsModule,
+    MatSelectModule,
+    MatRadioModule,
     ReactiveFormsModule,
     MatInputModule
   ],

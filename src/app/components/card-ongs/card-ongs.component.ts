@@ -12,7 +12,7 @@ export class CardOngsComponent implements OnChanges {
 
   @Input()ong:OngModel;
 
-  addres:string;
+  address:string;
   description:string;
   logo:string;
   name:string;
@@ -24,7 +24,7 @@ export class CardOngsComponent implements OnChanges {
   ngOnChanges(): void {
     if(this.ong!=null)
     {
-      this.addres = this.ong.addres;
+      this.address = this.ong.address;
       this.description = this.ong.description;
       this.logo = this.ong.logo;
       this.name = this.ong.name;

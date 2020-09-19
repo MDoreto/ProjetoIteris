@@ -9,7 +9,7 @@ import { EmpressModel } from 'src/app/services/empress-model';
 export class CardEmpressComponent implements OnChanges {
   @Input() ong:EmpressModel;
 
-  addres:string;
+  address:string;
   description:string;
   logo:string;
   name:string;
@@ -19,7 +19,7 @@ export class CardEmpressComponent implements OnChanges {
   ngOnChanges(): void {
     if(this.ong!=null)
     {
-      this.addres = this.ong.addres;
+      this.address = this.ong.address;
       this.logo = this.ong.logo;
       this.name = this.ong.name;
       this.site = this.ong.site;

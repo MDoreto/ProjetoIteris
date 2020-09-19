@@ -1,5 +1,5 @@
 export class OngModel {
-  addres:string;
+  address:string;
   description:string;
   logo:string;
   name:string;
