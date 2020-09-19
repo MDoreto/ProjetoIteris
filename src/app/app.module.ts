@@ -25,14 +25,10 @@ import {MatSelectModule} from '@angular/material/select';
 import {ReactiveFormsModule} from '@angular/forms';
 import { MatRadioModule } from '@angular/material/radio';
 import { OngsCadastroComponent } from './components/ongs-cadastro/ongs-cadastro.component';
-<<<<<<< HEAD
 import {MatInputModule} from '@angular/material/input';
-=======
 import { FormularioComponent } from './clientes/formulario/formulario.component';
-import { PageContatoComponent } from './components/page-contato/page-contato.component';
 
 
->>>>>>> c54da98dbaeba2a99e32614fe2a6e66e599abef9
 
 @NgModule({
   declarations: [
@@ -43,14 +39,9 @@ import { PageContatoComponent } from './components/page-contato/page-contato.com
     MainWindowComponent,
     CardEmpressComponent,
     PageEmpressComponent,
-<<<<<<< HEAD
     VoluntaryComponent,
-    OngsCadastroComponent
-=======
     OngsCadastroComponent,
-    FormularioComponent,
-    PageContatoComponent
->>>>>>> c54da98dbaeba2a99e32614fe2a6e66e599abef9
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
@@ -71,10 +62,8 @@ import { PageContatoComponent } from './components/page-contato/page-contato.com
     MatSelectModule,
     MatRadioModule,
     ReactiveFormsModule,
-<<<<<<< HEAD
-    MatInputModule
-=======
->>>>>>> c54da98dbaeba2a99e32614fe2a6e66e599abef9
+    MatInputModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
