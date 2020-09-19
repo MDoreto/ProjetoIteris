@@ -19,7 +19,11 @@ import { MainWindowComponent } from './components/main-window/main-window.compon
 import {MatTabsModule} from '@angular/material/tabs';
 import { CardEmpressComponent } from './components/card-empress/card-empress.component';
 import { PageEmpressComponent } from './components/page-empress/page-empress.component';
-
+import { VoluntaryComponent } from './components/voluntary/voluntary.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatSelectModule} from '@angular/material/select';
+import {ReactiveFormsModule} from '@angular/forms';
+import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -30,6 +34,7 @@ import { PageEmpressComponent } from './components/page-empress/page-empress.com
     MainWindowComponent,
     CardEmpressComponent,
     PageEmpressComponent,
+    VoluntaryComponent,
   ],
   imports: [
     BrowserModule,
@@ -43,7 +48,11 @@ import { PageEmpressComponent } from './components/page-empress/page-empress.com
     MatListModule,
     HttpClientModule,
     MatCardModule,
-    MatTabsModule
+    MatTabsModule,
+    MatFormFieldModule,
+    MatSelectModule,
+    ReactiveFormsModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
