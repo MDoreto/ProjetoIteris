@@ -1,0 +1,12 @@
+div{
+
+  margin:15px;
+
+}
+a:link{
+  text-decoration: none;
+  color :black;
+}
+a.menu:visited{
+color: black;
+}
