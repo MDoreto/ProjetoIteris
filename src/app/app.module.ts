@@ -28,6 +28,10 @@ import { MatRadioModule } from '@angular/material/radio';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { OngsCadastroComponent } from './components/ongs-cadastro/ongs-cadastro.component';
+import { FormularioComponent } from './clientes/formulario/formulario.component';
+import { PageContatoComponent } from './components/page-contato/page-contato.component';
+
+
 
 @NgModule({
   declarations: [
@@ -38,7 +42,9 @@ import { OngsCadastroComponent } from './components/ongs-cadastro/ongs-cadastro.
     MainWindowComponent,
     CardEmpressComponent,
     PageEmpressComponent,
-    OngsCadastroComponent
+    OngsCadastroComponent,
+    FormularioComponent,
+    PageContatoComponent
   ],
   imports: [
     BrowserModule,
@@ -56,7 +62,7 @@ import { OngsCadastroComponent } from './components/ongs-cadastro/ongs-cadastro.
     MatInputModule,
     MatSelectModule,
     MatRadioModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

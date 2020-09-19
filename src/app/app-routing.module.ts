@@ -4,6 +4,7 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
 import { MainWindowComponent } from './components/main-window/main-window.component';
 import { PageEmpressComponent } from './components/page-empress/page-empress.component';
 import { PageOngsComponent } from './components/page-ongs/page-ongs.component';
+import { FormularioComponent } from './clientes/formulario/formulario.component';
 
 const routes: Routes = [{
 
@@ -20,8 +21,8 @@ const routes: Routes = [{
       component:PageEmpressComponent,
     },
     {
-      path:'',
-      component:MainWindowComponent,
+      path:'Contato',
+      component:FormularioComponent,
     }
   ],
 
