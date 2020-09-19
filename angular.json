@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "ProjetoIteris"
+  "defaultProject": "ProjetoIteris",
+  "cli": {
+    "analytics": false
+  }
 }

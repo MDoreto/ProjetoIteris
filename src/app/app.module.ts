@@ -1,6 +1,6 @@
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -14,12 +14,20 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
 import { PageOngsComponent } from './components/page-ongs/page-ongs.component';
 import { CardOngsComponent } from './components/card-ongs/card-ongs.component';
 import { HttpClientModule } from '@angular/common/http';
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
 import { MainWindowComponent } from './components/main-window/main-window.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import { CardEmpressComponent } from './components/card-empress/card-empress.component';
 import { PageEmpressComponent } from './components/page-empress/page-empress.component';
 
+import { MatInputModule } from '@angular/material/input';
+
+import { MatSelectModule } from '@angular/material/select';
+import { MatRadioModule } from '@angular/material/radio';
+
+import { ReactiveFormsModule } from '@angular/forms';
+
+import { OngsCadastroComponent } from './components/ongs-cadastro/ongs-cadastro.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +38,7 @@ import { PageEmpressComponent } from './components/page-empress/page-empress.com
     MainWindowComponent,
     CardEmpressComponent,
     PageEmpressComponent,
+    OngsCadastroComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +52,11 @@ import { PageEmpressComponent } from './components/page-empress/page-empress.com
     MatListModule,
     HttpClientModule,
     MatCardModule,
-    MatTabsModule
+    MatTabsModule,
+    MatInputModule,
+    MatSelectModule,
+    MatRadioModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
