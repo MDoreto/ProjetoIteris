@@ -19,19 +19,20 @@ import { MainWindowComponent } from './components/main-window/main-window.compon
 import {MatTabsModule} from '@angular/material/tabs';
 import { CardEmpressComponent } from './components/card-empress/card-empress.component';
 import { PageEmpressComponent } from './components/page-empress/page-empress.component';
-
-import { MatInputModule } from '@angular/material/input';
-
-import { MatSelectModule } from '@angular/material/select';
+import { VoluntaryComponent } from './components/voluntary/voluntary.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatSelectModule} from '@angular/material/select';
+import {ReactiveFormsModule} from '@angular/forms';
 import { MatRadioModule } from '@angular/material/radio';
-
-import { ReactiveFormsModule } from '@angular/forms';
-
 import { OngsCadastroComponent } from './components/ongs-cadastro/ongs-cadastro.component';
+<<<<<<< HEAD
+import {MatInputModule} from '@angular/material/input';
+=======
 import { FormularioComponent } from './clientes/formulario/formulario.component';
 import { PageContatoComponent } from './components/page-contato/page-contato.component';
 
 
+>>>>>>> c54da98dbaeba2a99e32614fe2a6e66e599abef9
 
 @NgModule({
   declarations: [
@@ -42,9 +43,14 @@ import { PageContatoComponent } from './components/page-contato/page-contato.com
     MainWindowComponent,
     CardEmpressComponent,
     PageEmpressComponent,
+<<<<<<< HEAD
+    VoluntaryComponent,
+    OngsCadastroComponent
+=======
     OngsCadastroComponent,
     FormularioComponent,
     PageContatoComponent
+>>>>>>> c54da98dbaeba2a99e32614fe2a6e66e599abef9
   ],
   imports: [
     BrowserModule,
@@ -59,10 +65,16 @@ import { PageContatoComponent } from './components/page-contato/page-contato.com
     HttpClientModule,
     MatCardModule,
     MatTabsModule,
-    MatInputModule,
+    MatFormFieldModule,
+    MatSelectModule,
+    ReactiveFormsModule,
     MatSelectModule,
     MatRadioModule,
     ReactiveFormsModule,
+<<<<<<< HEAD
+    MatInputModule
+=======
+>>>>>>> c54da98dbaeba2a99e32614fe2a6e66e599abef9
   ],
   providers: [],
   bootstrap: [AppComponent]

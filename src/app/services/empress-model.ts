@@ -1,5 +1,5 @@
 export class EmpressModel {
-  addres:string;
+  address:string;
   logo:string;
   name:string;
   site:string;

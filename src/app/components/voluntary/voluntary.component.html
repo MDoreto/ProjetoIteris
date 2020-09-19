@@ -1,0 +1,44 @@
+<div>
+  <mat-card>
+    <p>
+      <mat-form-field appearance="standard">
+        <mat-label>Digite seu Nome:</mat-label>
+        <input matInput placeholder="Placeholder">
+        <mat-icon matSuffix>perm_identity</mat-icon>
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field class="CPF" appearance="standard">
+        <mat-label> CPF</mat-label>
+        <input type="cpf" matInput placeholder="999.999.999-28">
+        <mat-icon matSuffix>perm_device_information</mat-icon>
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field class="telephone" appearance="standard">
+        <mat-label> Telefone</mat-label>
+        <span matPrefix>+55 &nbsp;</span>
+        <input type="tel" matInput placeholder="(99) 99999-9999">
+        <mat-icon matSuffix>perm_device_information</mat-icon>
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field class="addres">
+        <mat-label> Endereço</mat-label>
+        <input matInput placeholder="Endereço">
+        <mat-icon matSuffix>language</mat-icon>
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field class="obs" appearance = "standard">
+        <mat-label>Observações</mat-label>
+        <input matInput #message maxlength="512" >
+        <mat-hint align="start"><strong> Locais de atuação, ou possíveis valores de doação</strong> </mat-hint>
+        <mat-hint align="end">{{message.value.length}} / 512</mat-hint>
+        <mat-icon matSuffix>chat</mat-icon>
+      </mat-form-field>
+    </p>
+    <br>
+    <button mat-stroked-button>INSCREVER-SE</button>
+  </mat-card>
+</div>
