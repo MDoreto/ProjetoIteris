@@ -6,6 +6,7 @@
   min-width: 120px;
   margin: 20px auto;
 }
+
 .mat-card-header {
   justify-content: center;
 }
@@ -29,7 +30,3 @@
   margin-right: 0;
 }
 
-button {
-  width: 100%;
-  padding: 10px;
-}
