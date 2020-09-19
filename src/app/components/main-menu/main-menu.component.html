@@ -5,10 +5,11 @@
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item routerLink="/Ongs">ONGS</a>
+      <a mat-list-item routerLink="/Ongs">ONG'S</a>
+      <a mat-list-item href="#">Empresas</a>
       <a mat-list-item href="#">Seja um voluntário</a>
-      <a mat-list-item href="Ongs">Traga sua ONG</a>
-      <a mat-list-item href="#">Contat</a>
+      <a mat-list-item href="">Traga sua ONG</a>
+      <a mat-list-item href="#">Contato</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -21,7 +22,7 @@
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>Sharing Food</span>
+      <span><a class= "menu" routerLink="/">SHARING HOPE</a></span>
     </mat-toolbar>
     <!-- Add Content Here -->
     <router-outlet></router-outlet>

@@ -15,6 +15,9 @@ import { PageOngsComponent } from './components/page-ongs/page-ongs.component';
 import { CardOngsComponent } from './components/card-ongs/card-ongs.component';
 import { HttpClientModule } from '@angular/common/http';
 import {MatCardModule} from '@angular/material/card';
+import { MainWindowComponent } from './components/main-window/main-window.component';
+import {MatTabsModule} from '@angular/material/tabs';
+
 
 @NgModule({
   declarations: [
@@ -22,6 +25,7 @@ import {MatCardModule} from '@angular/material/card';
     MainMenuComponent,
     PageOngsComponent,
     CardOngsComponent,
+    MainWindowComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,7 +38,8 @@ import {MatCardModule} from '@angular/material/card';
     MatIconModule,
     MatListModule,
     HttpClientModule,
-    MatCardModule
+    MatCardModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

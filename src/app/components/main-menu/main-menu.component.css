@@ -15,3 +15,10 @@
   top: 0;
   z-index: 1;
 }
+a:link{
+  text-decoration: none;
+  color :white;
+}
+a.menu:visited{
+color: white;
+}
