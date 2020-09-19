@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {OngModel} from '../services/ong-model';
-import {OngAPIService} from '../services/ong-api.service'
+import {OngModel} from 'src/app/services/ong-model';
+import {OngAPIService} from 'src/app/services/ong-api.service'
 
 @Component({
   selector: 'app-page-ongs',

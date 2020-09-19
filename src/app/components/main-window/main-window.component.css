@@ -1,0 +1,14 @@
+div {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  color:black;
+  min-height: 800px;
+}
+
+h1{
+  color: black;
+}
+.tabsdemoDynamicHeight  md-content  md-tabs {
+  border : 1 px solid #e1e1e1 ;
+}

@@ -1,0 +1,14 @@
+mat-card{
+display: flex;
+flex-direction: column;
+justify-content: center;
+  margin:15px;
+  align-items: center;
+}
+a:link{
+  text-decoration: none;
+  color :black;
+}
+a.menu:visited{
+color: black;
+}

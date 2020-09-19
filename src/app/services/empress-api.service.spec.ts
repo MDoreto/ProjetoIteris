@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { OngAPIService } from './ong-api.service';
+import { EmpressApiService } from './empress-api.service';
 
-describe('OngAPIService', () => {
-  let service: OngAPIService;
+describe('EmpressApiService', () => {
+  let service: EmpressApiService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(OngAPIService);
+    service = TestBed.inject(EmpressApiService);
   });
 
   it('should be created', () => {

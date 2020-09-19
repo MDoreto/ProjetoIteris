@@ -1,31 +1,25 @@
 import { Component, Input, OnChanges, OnInit } from '@angular/core';
-import {OngModel} from 'src/app/services/ong-model';
-
-
+import { EmpressModel } from 'src/app/services/empress-model';
 
 @Component({
-  selector: 'app-card-ongs',
-  templateUrl: './card-ongs.component.html',
-  styleUrls: ['./card-ongs.component.css']
+  selector: 'app-card-empress',
+  templateUrl: './card-empress.component.html',
+  styleUrls: ['./card-empress.component.css']
 })
-export class CardOngsComponent implements OnChanges {
-
-  @Input()ong:OngModel;
+export class CardEmpressComponent implements OnChanges {
+  @Input() ong:EmpressModel;
 
   addres:string;
   description:string;
   logo:string;
   name:string;
   site:string;
-
-
   constructor() { }
 
   ngOnChanges(): void {
     if(this.ong!=null)
     {
       this.addres = this.ong.addres;
-      this.description = this.ong.description;
       this.logo = this.ong.logo;
       this.name = this.ong.name;
       this.site = this.ong.site;

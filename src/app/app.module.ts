@@ -17,6 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
 import {MatCardModule} from '@angular/material/card';
 import { MainWindowComponent } from './components/main-window/main-window.component';
 import {MatTabsModule} from '@angular/material/tabs';
+import { CardEmpressComponent } from './components/card-empress/card-empress.component';
+import { PageEmpressComponent } from './components/page-empress/page-empress.component';
 
 
 @NgModule({
@@ -26,6 +28,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     PageOngsComponent,
     CardOngsComponent,
     MainWindowComponent,
+    CardEmpressComponent,
+    PageEmpressComponent,
   ],
   imports: [
     BrowserModule,
